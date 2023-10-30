@@ -1,0 +1,58 @@
+header{
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+}
+
+header .logo-menu, 
+header .search{
+    justify-content: center;
+    display: flex;
+    
+    
+}
+
+header .logo-menu img{
+    margin-left: 32px;
+}
+
+header.search input{
+    width: 348px;
+    height: 30px;
+    border: 1px solid #CCC;
+}
+
+header .search button{
+    width: 57px;
+    height: 30px;
+}
+
+header .notification {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+header .notification img{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+main{
+    background: #f9f9f9;
+    width: 100%;
+    padding-top: 28px;
+    display: flex;
+}
+
+main .video{
+    margin-left: 75px;
+}
+
+main .video .video-player-title{
+    padding: 16px 0;
+}
